@@ -7,7 +7,9 @@ authors = [
     { name = "Marta", email = "honskamarta7@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "psycopg[binary]>=3.3.6",
+]
 
 [project.scripts]
 scripting-labs = "scripting_labs:main"
